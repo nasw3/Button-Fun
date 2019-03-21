@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var myLabel: UILabel!
     @IBOutlet weak var labelB: UILabel!
+    
     @IBOutlet weak var counterLabel: UILabel!
     
     var count = 0
@@ -27,8 +28,13 @@ class ViewController: UIViewController {
     @IBAction func buttonPressed(_ sender: Any) {
         count = count + 1
         myLabel.text = "ㅇㅇㅇㅇㅇㅇㅇ"
+        if(count==10){
+            count = 0;
+        }
         counterLabel.text = String(count)
-    }
+        
+        }
+
     @IBAction func buttonBpressed(_ sender: Any) {
         labelB.text = "ㅁㅁㅁㅁㅁㅁㅁ"
     }

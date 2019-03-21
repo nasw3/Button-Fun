@@ -62,7 +62,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="counterLabek" destination="jKn-TU-TRE" id="Flm-jC-J3P"/>
+                        <outlet property="counterLabel" destination="jKn-TU-TRE" id="4BN-xt-X3O"/>
                         <outlet property="labelB" destination="dr8-cq-tEr" id="KUJ-oG-BpY"/>
                         <outlet property="myLabel" destination="LRU-tk-Y0W" id="8LY-Qp-Jg4"/>
                     </connections>
